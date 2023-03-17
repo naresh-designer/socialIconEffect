@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+          *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+          }
+         body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #27282c;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+        }
+        .main{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .icon{
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+            border-radius: 100px;
+            background-color: #fff;
+            text-align: center;
+            font-size: 50px;
+            overflow: hidden;
+            margin: 20px;
+            transition: .5s ease-in-out;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+        .icon i{
+            margin-left: 30px;
+        }
+        .icon span{
+            margin-left: 30px;
+            transition: .5s;
+        }
+        .icon:hover span{
+            color: #fff;
+        }
+        .icon:hover{
+            width: 400px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .ista .fa-brands{
+            color: red;
+            transition: .5s;
+        }
+        .ista:hover{
+            background: red;
+        }
+        .ista:hover .fa-brands{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="icon ista">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+        </div>
+        <div class="icon">
+            <i class="fa-brands fa-twitter"></i>
+            <span>Instagram</span>
+        </div>
+        <div class="icon">
+            <i class="fa-brands fa-instagram"></i>
+            <span>Instagram</span>
+        </div>
+    </div>
+</body>
+</html>

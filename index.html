@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+          @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+         body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #27282c;
+            font-family: 'Poppins', sans-serif;
+            text-transform: uppercase;
+        }
+        ul{
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+            display: flex;
+            justify-content: flex-start;
+        }
+        ul li{
+            position: relative;
+            list-style: none;
+            margin: 0 20px;
+        }
+        ul li a .fa-brands{
+            color: #fff;
+            font-size: 40px;
+        }
+        ul li::before{
+            font-family: fontAwesome;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 0;
+            font-size: 40px;
+            overflow: hidden;
+            transition: .5s ease-in-out;
+        }
+        ul li:nth-child(1):before{
+            content: '\f16d';
+            color: red;
+        }
+        ul li:nth-child(2):before{
+            content: '\f099';
+            color: blue;
+        }
+        ul li:hover:before{
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+        <li><a href=""><i class="fa-brands fa-twitter"></i></i></a></li>
+        <li><a href=""><i class="fa-brands fa-instagram"></i></a></li>
+    </ul>
+</body>
+</html>
